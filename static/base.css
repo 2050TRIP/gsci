@@ -1,0 +1,23 @@
+.gsci_logo {
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+.gsci_footer_button {
+    font-size: .6rem;
+}
+
+.gsci_footer {
+    text-align:center;
+    margin-top: 2rem;
+}
+
+.gsci_header {
+    text-align:center;
+    margin: 2rem 0;
+}
