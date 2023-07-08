@@ -1,4 +1,4 @@
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
 
@@ -11,6 +11,7 @@ from accountapp.models import HelloWorld
 def hello_world(request):
 
     if request.method == "POST":
+
         temp = request.POST.get('hello_world_input')
 
         new_hello_world = HelloWorld()
